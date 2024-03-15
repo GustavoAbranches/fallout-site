@@ -1,0 +1,40 @@
+:root{
+  --color1: #416CA6;
+  --color2: #1C2F40;
+  --color3: #BFAA3F;
+  --color4: #A68524; 
+  --color5: #BFAE99; 
+}
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+}
+.carousel{
+  height: 500px;
+  width: 1000px;
+  margin-bottom: 63px;
+}
+h1{
+  display: block;
+  padding: 10px 370px;
+  color: var(--color3);
+}
+p{
+  display: block;
+  line-height: 2em;
+  color: var(--color5);
+  text-indent: 4em;
+  padding: 10px 150px;
+}
+
+iframe{
+  display: block;
+  margin: 10px 400px;
+}

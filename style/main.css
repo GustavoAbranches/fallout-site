@@ -9,6 +9,12 @@
   font-family: 'Fallout-font';
   src: url(/fonts/overseer/Overseer.otf);
 }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
 *{
   margin: 0;
   border: 0;
@@ -21,7 +27,8 @@ header{
   font-size: 30px;
 }
 p{
-  text-shadow: 1px 1px 2px var(--color2);
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Merriweather';
 }
 body {
   display: flex;

@@ -20,7 +20,6 @@ p{
   line-height: 2em;
   text-indent: 3em;
   text-align: justify;
-  text-shadow: 1px 1px 2px var(--color1);
 }
 .para-article{
   display: block;

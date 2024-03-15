@@ -10,31 +10,66 @@
   border: 0;
   padding: 0;
 }
-.slider-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color1);
-}
-.carousel{
-  height: 500px;
-  width: 1000px;
-  margin-bottom: 63px;
-}
 h1{
   display: block;
   padding: 10px 370px;
   color: var(--color3);
 }
 p{
-  display: block;
-  line-height: 2em;
   color: var(--color5);
-  text-indent: 4em;
+  line-height: 2em;
+  text-indent: 3em;
+  text-align: justify;
+  text-shadow: 1px 1px 2px var(--color1);
+}
+.para-article{
+  display: block;
   padding: 10px 150px;
 }
 
-iframe{
-  display: block;
-  margin: 10px 400px;
+.img-index{
+  height: 500px;
+  width: 850px;
+}
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-treiler{
+  display: flex;
+  background-color: #BFAA3F;
+  margin: 30px 50px 0px 50px;
+  padding: 25px;
+  justify-content: center;
+  border-radius: 20px 20px 0px 0px;
+}
+.treiler-sec{
+  display: flex;
+  background-color: #1C2F40;
+  margin: 0px 50px 0px 50px;
+  padding: 25px;
+  border-radius: 0px 0px 20px 20px;
+}
+#fallout-3{
+  display: flex;
+  justify-content: space-around ;
+}
+.para-fallout{
+  display: flex;
+  width: 400px ;
+  /* padding-top: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+#fallout-nv{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+#fallout-4{
+  display: flex;
+  justify-content: space-around ;
+  margin-bottom: 30px;
 }

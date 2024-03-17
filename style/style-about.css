@@ -1,0 +1,37 @@
+:root{
+  --color1: #416CA6;
+  --color2: #1C2F40;
+  --color3: #BFAA3F;
+  --color4: #A68524; 
+  --color5: #BFAE99; 
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url(/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h1{
+  display: block;
+  padding: 10px 370px;
+  color: var(--color3);
+}
+
+.div-about{
+  margin: 20px;
+  background-color: #1C2F40;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+}
+.para-about{
+  color: var(--color5);
+  line-height: 2em;
+  text-indent: 3em;
+  text-align: justify;
+}

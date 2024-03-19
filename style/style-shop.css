@@ -1,0 +1,36 @@
+:root{
+  --color1: #416CA6;
+  --color2: #1C2F40;
+  --color3: #BFAA3F;
+  --color4: #A68524; 
+  --color5: #BFAE99; 
+}
+
+.shop-sec{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.shop-div{
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color:  var(--color2);
+  width: 70%;
+  align-items: center;
+  justify-content:space-around;
+  border-radius: 20px;
+}
+
+.right{
+  flex-direction: row-reverse;
+}
+.shop-link{
+  text-decoration: none;
+  color: var(--color3);
+}
+.shop-link:active{
+  color: var(--color4);
+}

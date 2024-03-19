@@ -10,12 +10,6 @@
   src: url(/fonts/Merriweather/Merriweather-Regular.ttf);
 }
 
-*{
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
-
 h1{
   display: block;
   padding: 10px 370px;

@@ -25,6 +25,7 @@ header{
   font-family: 'Fallout-font';
   text-align: center;
   font-size: 30px;
+  color: var(--color3);
 }
 
 p{

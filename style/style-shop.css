@@ -5,7 +5,9 @@
   --color4: #A68524; 
   --color5: #BFAE99; 
 }
-
+header{
+  height: 70px;
+}
 .shop-sec{
 display: flex;
 flex-direction: column;

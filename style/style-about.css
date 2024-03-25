@@ -9,7 +9,9 @@
   font-family: 'Merriweather';
   src: url(fonts/Merriweather/Merriweather-Regular.ttf);
 }
-
+header{
+  height: 70px;
+}
 h1{
   display: block;
   padding: 10px 370px;

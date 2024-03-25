@@ -7,12 +7,12 @@
 }
 @font-face {
   font-family: 'Fallout-font';
-  src: url(/fonts/overseer/Overseer.otf);
+  src: url(fonts/overseer/Overseer.otf);
 }
 
 @font-face {
   font-family: 'Merriweather';
-  src: url(/fonts/Merriweather/Merriweather-Regular.ttf);
+  src: url(fonts/Merriweather/Merriweather-Regular.ttf);
 }
 
 *{

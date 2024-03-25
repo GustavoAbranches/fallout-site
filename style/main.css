@@ -26,6 +26,7 @@ header{
   text-align: center;
   font-size: 30px;
   color: var(--color3);
+  height: 110px;
 }
 
 p{
@@ -43,10 +44,27 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
-.nav-menu .nav-link{
+.nav-item .nav-link{
   color: var(--color3);
+  position: relative;
+  padding-bottom: 1px;
 }
-.nav-menu .nav-link:hover{
+
+.nav-item .nav-link::after{
+  content: " ";
+  width: 0%;
+  height: 2px; 
+  background-color: var(--color4);
+  position: absolute;
+  bottom: 2px; 
+  left: 0;
+  transition: width 0.3s ease; 
+}
+
+.nav-item .nav-link:hover::after{
+  width: 100%;
+}
+.nav-item .nav-link:hover{
   color: var(--color4);
 }
 main {
